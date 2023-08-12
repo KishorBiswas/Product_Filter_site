@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!-- Google fonts Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- AOS animetion libery CSS style link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <title>Product_list</title>
+</head>
+<body>
+    <div class="container">
+        <from class="search_box">
+            <input type="text" placeholder="Enter your product name..." id="search_input" required/>
+            <button type="submit" id="search_Btn">Search</button>
+        </from>
+
+        <div class="indicat_button">
+            <button class="button_value active" data-aos="zoom-in" >All</button>
+            <button class="button_value" data-aos="zoom-in" >Watch</button>
+            <button class="button_value" data-aos="zoom-in" >Head_Phone</button>
+            <button class="button_value" data-aos="zoom-in" >Laptop</button>
+            <button class="button_value" data-aos="zoom-in" >Shoes</button>
+            <button class="button_value" data-aos="zoom-in" >T-Shirt</button>
+            <button class="button_value" data-aos="zoom-in" >Jewlary</button>
+        </div>
+
+
+        <div class="Products"></div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+
+    <!-- AOS libery JS CDN link  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
